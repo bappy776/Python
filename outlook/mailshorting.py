@@ -19,3 +19,4 @@ sla_messages = [message for message in inbox.Items if 'breach' in message.Body.l
 # move the messages to the subfoldersub
 for message in sla_messages:
     message.Move(subfoldersub)
+### ref: https://github.com/israel-dryer/Outlook-Python-Tutorial/wiki/Search-and-Organize-Mail
